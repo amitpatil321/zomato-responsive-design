@@ -13,7 +13,7 @@ function App() {
   const [shareTarget, setShareTarget] = useState<string>("email");
   return (
     <div className="w-full h-screen">
-      <div className="bg-[url(images/main.png)] bg-cover bg-no-repeat bg-center w-full h-[50%] md:h-[60%]">
+      <div className="bg-[url(/images/main.png)] bg-cover bg-no-repeat bg-center w-full h-[50%] md:h-[60%]">
         <div className="lg:hidden flex justify-between px-4 pt-4 text-white">
           <div className="font-semibold text-sm">Get the App</div>
           <div className="flex items-center gap-2">
@@ -118,11 +118,11 @@ function App() {
           Collections
         </h4>
         <div className="flex justify-between items-center mt-2 w-full">
-          <p className="w-full md:w-3/5 md:font-thin text-gray-700 text-sm md:text-xl">
+          <p className="w-full md:w-3/4 md:font-thin text-gray-700 text-sm md:text-xl">
             Explore curated lists of top restaurants, cafes, pubs, and bars in
             Pune, based on trends
           </p>
-          <div className="hidden md:flex w-2/5 text-right">
+          <div className="hidden md:flex">
             <a
               href="#"
               className="flex justify-end items-center gap-1 text-primary-500 text-sm md:text-lg"
