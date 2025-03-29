@@ -12,7 +12,7 @@ function App() {
   const [shareTarget, setShareTarget] = useState<string>("");
   return (
     <div className="w-full h-screen">
-      <div className="bg-[url(/images/main.png)] bg-cover bg-no-repeat bg-center w-full h-[50%] md:h-[60%]">
+      <div className="bg-[url(images/main.png)] bg-cover bg-no-repeat bg-center w-full h-[50%] md:h-[60%]">
         <div className="lg:hidden flex justify-between px-4 pt-4 text-white">
           <div className="font-semibold text-sm">Get the App</div>
           <div className="flex items-center gap-2">
@@ -33,7 +33,7 @@ function App() {
         {/* xl:justify-end */}
         <div className="flex flex-col justify-center items-center gap-6 mx-auto pb-20 w-full h-full">
           <img
-            src="/images/logo-big.png"
+            src="images/logo-big.png"
             alt="logo"
             className="bg-transparent h-8 md:h-16"
           />
@@ -65,7 +65,7 @@ function App() {
         <div className="relative flex flex-col shadow-sm border rounded-xl overflow-hidden hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
           <img
             className="w-full h-36 object-cover"
-            src="/images/order-online.jpeg"
+            src="images/order-online.jpeg"
             alt="Order Online"
           />
           <div className="bottom-0 absolute bg-white px-4 py-2 w-full">
@@ -81,7 +81,7 @@ function App() {
         <div className="relative flex flex-col shadow-sm border rounded-xl overflow-hidden hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
           <img
             className="w-full h-36 object-cover"
-            src="/images/dining.jpeg"
+            src="images/dining.jpeg"
             alt="Order Online"
           />
           <div className="bottom-0 absolute bg-white px-4 py-2 w-full">
@@ -97,7 +97,7 @@ function App() {
         <div className="relative flex flex-col shadow-sm border rounded-xl overflow-hidden hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
           <img
             className="w-full h-36 object-cover"
-            src="/images/live-events.png"
+            src="images/live-events.png"
             alt="Live events"
           />
           <div className="bottom-0 absolute bg-white px-4 py-2 w-full">
@@ -121,10 +121,10 @@ function App() {
         </p>
         <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 mt-4">
           {[
-            { img: "/images/trending.png", title: "Top trending spots" },
-            { img: "/images/rooftop.png", title: "Best Rooftop Cafes" },
-            { img: "/images/newly-opened.png", title: "Newly Opened" },
-            { img: "/images/iftar-special.png", title: "Iftar Specials" },
+            { img: "images/trending.png", title: "Top trending spots" },
+            { img: "images/rooftop.png", title: "Best Rooftop Cafes" },
+            { img: "images/newly-opened.png", title: "Newly Opened" },
+            { img: "images/iftar-special.png", title: "Iftar Specials" },
           ].map((item, index) => (
             <div
               key={index}
@@ -252,8 +252,8 @@ function App() {
             <div className="flex flex-col items-center md:items-start gap-4 mt-4 align-middle">
               <p className="text-gray-400">Download app from</p>
               <div className="flex gap-4">
-                <img src="/images/google-store.png" className="w-auto h-10" />
-                <img src="/images/apple-store.png" className="w-auto h-10" />
+                <img src="images/google-store.png" className="w-auto h-10" />
+                <img src="images/apple-store.png" className="w-auto h-10" />
               </div>
             </div>
           </div>
@@ -292,7 +292,7 @@ function App() {
         <div className="flex justify-between items-center">
           <div>
             <img
-              src="/images/logo-clean.png"
+              src="images/logo-clean.png"
               alt="logo"
               className="h-8 md:h-8 text-gray-950"
             />
@@ -399,8 +399,8 @@ function App() {
               Social Links
             </h6>
             <div className="flex flex-col gap-2">
-              <img src="/images/apple-store.png" className="w-36 h-11" />
-              <img src="/images/google-store.png" className="w-36 h-11" />
+              <img src="images/apple-store.png" className="w-36 h-11" />
+              <img src="images/google-store.png" className="w-36 h-11" />
             </div>
           </div>
         </div>
