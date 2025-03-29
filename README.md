@@ -27,7 +27,7 @@ Check out the live demo here: <a href="https://amitpatil321.github.io/zomato-res
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/zomato-clone.git
+   git clone https://github.com/amitpatil321/zomato-responsive-design
    cd zomato-responsive-design
 
 2. **Install dependencies**
