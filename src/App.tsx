@@ -42,7 +42,8 @@ function App() {
             Discover the best food & drinks in Pune
           </h2>
 
-          <div className="flex sm:flex-row flex-col md:items-center gap-4 sm:gap-0 bg-transparent sm:bg-white rounded-lg w-[95%] md:w-[40%] text-light-50">
+          {/* <div className="flex sm:flex-row flex-col md:items-center gap-4 sm:gap-0 bg-transparent sm:bg-white rounded-lg w-[95%] md:w-[40%] text-light-50"> */}
+          <div className="flex sm:flex-row flex-col items-center gap-4 sm:gap-0 bg-transparent sm:bg-white shadow-md rounded-lg w-[95%] lg:w-[50%]">
             <div className="flex items-center bg-white px-2 rounded-lg md:rounded-r-none w-full sm:w-[40%] h-14">
               <TiLocation className="text-primary-300 text-2xl" />
               <input
@@ -63,7 +64,7 @@ function App() {
         </div>
       </div>
 
-      <div className="gap-4 grid grid-cols-2 sm:grid-cols-3 mx-auto px-6 sm:px-4 pt-3 sm:pt-10 w-full md:w-3/5 sm:h-60">
+      <div className="gap-4 grid grid-cols-2 sm:grid-cols-3 mx-auto px-6 sm:px-4 lg:px-0 pt-3 sm:pt-10 w-full lg:w-3/5 sm:h-60">
         <div className="relative flex flex-col shadow-sm border rounded-xl overflow-hidden hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
           <img
             className="w-full h-36 object-cover"
@@ -113,7 +114,7 @@ function App() {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 p-6 md:p-0 w-full md:w-3/5">
+      <div className="mx-auto mt-12 p-6 lg:p-0 w-full lg:w-3/5">
         <h4 className="font-semibold text-gray-700 text-lg sm:text-3xl">
           Collections
         </h4>
@@ -167,7 +168,7 @@ function App() {
         </a>
       </div>
 
-      <div className="mx-auto mt-8 p-6 md:p-0 w-full md:w-3/5">
+      <div className="mx-auto mt-8 p-6 lg:p-0 w-full lg:w-3/5">
         <h4 className="font-semibold text-gray-700 text-lg sm:text-3xl">
           Popular localities in and around Pune
         </h4>
@@ -198,7 +199,7 @@ function App() {
 
       {/* <div className="bg-primary-50 mx-auto mt-12 sm:mt-20 p-6 w-full w-full md:w-3/5"> */}
       <div className="bg-primary-50 mt-12 w-full">
-        <div className="mx-auto p-6 w-full md:w-1/2">
+        <div className="mx-auto p-6 w-full lg:w-1/2">
           <div className="flex flex-row">
             <img src="images/get-app.png" className="hidden sm:flex w-[50%]" />
 
@@ -293,7 +294,7 @@ function App() {
       </div>
 
       <div className="bg-light-100 px-6 pt-10 pb-10 w-full">
-        <div className="mx-auto md:w-3/5">
+        <div className="mx-auto lg:w-3/5">
           <h4 className="font-semibold text-gray-700 text-lg sm:text-3xl">
             Explore options near me
           </h4>
@@ -318,7 +319,7 @@ function App() {
       </div>
 
       <div className="bg-gray-100 md:p-12 px-2 pt-10 w-full">
-        <div className="mx-auto md:w-3/5">
+        <div className="mx-auto lg:w-3/5">
           <div className="flex justify-between items-center">
             <div>
               <img
