@@ -61,7 +61,7 @@ function App() {
         </div>
       </div>
 
-      <div className="gap-4 grid grid-cols-2 sm:grid-cols-3 px-6 sm:px-0 pt-3 sm:pt-10 sm:h-60">
+      <div className="gap-4 grid grid-cols-2 sm:grid-cols-3 mx-auto px-6 sm:px-0 pt-3 sm:pt-10 w-full md:w-3/4 sm:h-60">
         <div className="relative flex flex-col shadow-sm border rounded-xl overflow-hidden hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
           <img
             className="w-full h-36 object-cover"
@@ -111,7 +111,7 @@ function App() {
         </div>
       </div>
 
-      <div className="mt-8 px-6">
+      <div className="mx-auto mt-8 w-full md:w-3/4">
         <h4 className="font-semibold text-gray-700 text-lg sm:text-3xl">
           Collections
         </h4>
@@ -142,7 +142,7 @@ function App() {
         </div>
       </div>
 
-      <div className="px-6 pt-6">
+      <div className="mx-auto pt-6 w-full md:w-3/4">
         <a
           href="#"
           className="flex items-center gap-1 text-primary-500 text-sm"
@@ -152,7 +152,7 @@ function App() {
         </a>
       </div>
 
-      <div className="mt-8 px-6">
+      <div className="mx-auto mt-8 w-full md:w-3/4">
         <h4 className="font-semibold text-gray-700 text-lg sm:text-3xl">
           Popular localities in and around Pune
         </h4>
@@ -181,7 +181,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-primary-50 mt-12 sm:mt-20 p-6 w-full">
+      <div className="bg-primary-50 mx-auto mt-12 sm:mt-20 p-6 w-full w-full md:w-3/4">
         <div className="flex flex-row">
           <img src="images/get-app.png" className="hidden md:flex w-[50%]" />
 
@@ -260,7 +260,7 @@ function App() {
         </div>
       </div>
 
-      <div className="mt-8 px-6">
+      <div className="mx-auto mt-8 w-full md:w-3/4">
         <h4 className="font-semibold text-gray-700 text-xl">
           Explore options near me
         </h4>
